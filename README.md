@@ -4,7 +4,15 @@ This project is a simulation of a quality-control system that uses AI to disting
 The setup works as follows: a dispenser releases a cube onto a conveyor belt, which carries it forward until it reaches an ultrasonic sensor. When the cube is in position, a camera captures an image, and the trained AI model classifies the object. The classification result is then sent back to the Arduino, which moves a divided container at the end of the conveyor belt so the cube is sorted into the correct section.
 The aim of the project was to apply newly learned AI concepts to a practical system that mirrors real-world industrial processes. Although the build is small and made of cardboard, it serves as a proof of concept for how similar systems can tackle real-world challenges. Through this project, I strengthened my skills in AI( such as image classification, dataset creation, and model visualization) as well as in robotics and mechanical design.
 ### Demo
-TODO
+<h3 align="center">Video Showcase </h3>
+
+<p align="center">
+  <a href="https://youtu.be/rlaDKYwi1m4?si=Pba6w1NRTL_v_8_M" target="_blank">
+    <img src="https://img.youtube.com/vi/rlaDKYwi1m4/maxresdefault.jpg" alt="Final Version">
+  </a>
+</p>
+
+
 ### Features
 - Real-time object classification using a TensorFlow-trained model.
 - Automated dispensing mechanism that reliably releases a single cube at a time
